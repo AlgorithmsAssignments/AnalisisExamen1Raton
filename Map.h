@@ -13,9 +13,8 @@ class Map
     int hash(string str);
     void put(string key, int value);
     int get(string key);
-    void clear();
-    int getSize();
-    bool isEmpty();
+  private:
+    vector< pair<string,int>* > array;
 };
 
 
