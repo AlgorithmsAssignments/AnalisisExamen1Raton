@@ -42,7 +42,7 @@ void BinaryNode::balance_nodes(BinaryNode* node)
     BinaryNode* root_right = node->right_child;
 
     BinaryNode* new_root_left = root_right->left_child;
-    BinaryNode* new_root_right = root_left->right_child;
+    BinaryNode* new_root_right = root_right->right_child;
 
     root_right->right_child = node;
     root_right->left_child = root_left;
