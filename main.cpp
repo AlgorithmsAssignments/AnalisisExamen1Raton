@@ -48,7 +48,7 @@ void printInorder(BinaryNode* node)
         return;
 
     /* first recur on left child */
-    cout<<"Node: "<<node->value<<" ";
+    cout<<endl<<"Node: "<<node->value<<" ";
     if(node->left_child != NULL)
       cout<<"Left son: "<<node->left_child->value;
 
