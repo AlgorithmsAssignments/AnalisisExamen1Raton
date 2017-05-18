@@ -29,9 +29,9 @@ void Map::put(string key, int value)
 
   if(current_pair->first != "")
   {
-    cout<<"Old val: "<<current_pair->second<<endl;
+    //cout<<"Old val: "<<current_pair->second<<endl;
     current_pair->second *= value;
-    cout<<"New val: "<<current_pair->second<<endl;
+    //cout<<"New val: "<<current_pair->second<<endl;
   }else {
     array[index] = new pair<string, int>(key, value);
   }

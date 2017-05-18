@@ -1,6 +1,5 @@
 #ifndef BIANRYNODE_H
 #define BIANRYNODE_H
-
 #include <iostream>
 using namespace std;
 
@@ -13,6 +12,8 @@ public:
 
   BinaryNode();
   BinaryNode(int value);
+  bool insert_node(int value);
+  void balance_nodes(BinaryNode* node);
 };
 
 #endif
